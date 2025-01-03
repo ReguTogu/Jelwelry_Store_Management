@@ -8,7 +8,7 @@ namespace QuanLyKinhDoanhVangBacDaQuy
         {
             InitializeComponent();
         }
-
+        //Nhấn nút đăng nhập
         private void btnLogin_Click(object sender, EventArgs e)
         {
             string userName = txbUserName.Text;
@@ -25,11 +25,12 @@ namespace QuanLyKinhDoanhVangBacDaQuy
                 MessageBox.Show("Sai tên tài khoản hoặc mật khẩu!", "Lỗi!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
+        //Gửi thông tin tài khoản mật khẩu đến hệ thống
         bool login(string userName, string passWord)
         {
             return AccountDAO.Instance.Login(userName, passWord);
         }
+        //Thông báo khi thoát chương trình (Form Login là form mặc định của hệ thống)
         private void LoginForm_FormClosing(object sender, FormClosingEventArgs e)
         {
 
@@ -38,26 +39,24 @@ namespace QuanLyKinhDoanhVangBacDaQuy
                 e.Cancel = true;
             }
         }
-
+        //Chuyển qua form Đăng ký
         private void gotoRegister_Click(object sender, EventArgs e)
         {
             RegisterForm regForm = new RegisterForm(this);
             regForm.Show();
             this.Hide();
         }
-
-
+        //Nút thu nhỏ chương trình
         private void Minimize_btn_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
-
-
+        //Nút tắt chương trình
         private void Exitbutton_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
+        //Hiện mật khẩu
         private void Login_ShowPass_CheckedChanged(object sender, EventArgs e)
         {
             txbPassWord.UseSystemPasswordChar = false;

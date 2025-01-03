@@ -65,9 +65,10 @@ namespace QuanLyKinhDoanhVangBacDaQuy.DAO
                 connection.Close();
             }
             return data;
-        } // trả ra dòng kết quả 
+        } //Hàm trả ra bảng kết quả
 
-        public int ExecuteNonQuery(string query, Dictionary<string, object> parameters) //trả về số dòng được insert delete update
+        //Hàm trả về số dòng được thực thi cho các công đoạn: insert, delete, update
+        public int ExecuteNonQuery(string query, Dictionary<string, object> parameters)
         {
             int result = 0;
             using (SqlConnection connection = new SqlConnection(connectionSTR)) //tự giải phóng dữ liệu khai báo
@@ -91,49 +92,7 @@ namespace QuanLyKinhDoanhVangBacDaQuy.DAO
             }
             return result;
         }
-            
-
-        //public int InsertData(string query, string TenNV, string Username, string Password, string chucVu)
-        //{
-        //    int done = 0;
-        //    using (SqlConnection connection = new SqlConnection(connectionSTR)) //tự giải phóng dữ liệu khai báo
-        //    {
-        //        connection.Open();
-        //        //Thực thi lệnh query trên connection
-        //        //Kiểm tra username trùng
-        //        string checkUsername = "SELECT * FROM NHANVIEN WHERE TaiKhoan = @TaiKhoan";
-
-        //        using (SqlCommand cmd = new SqlCommand(checkUsername, connection))
-        //        {
-        //            cmd.Parameters.AddWithValue("@TaiKhoan", Username);
-
-        //            //Lấy dữ liệu từ câu truy vấn truyen vao bang
-        //            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
-        //            DataTable table = new DataTable();
-        //            adapter.Fill(table);
-        //            if (table.Rows.Count > 0)
-        //            {
-        //                done = -1;
-        //            }
-        //            else
-        //            {
-        //                using (SqlCommand insert = new SqlCommand(query, connection))
-        //                {
-        //                    insert.Parameters.AddWithValue("@TenNhanVien", TenNV);
-        //                    insert.Parameters.AddWithValue("@TaiKhoan", Username);
-        //                    insert.Parameters.AddWithValue("@MatKhau", Password);
-        //                    insert.Parameters.AddWithValue("@ChucVu", chucVu);
-
-        //                    insert.ExecuteNonQuery(); //Trả về số dòng bị ảnh hưởng (insert, delete, update)
-        //                    done = 1;
-        //                }
-        //            }
-        //            connection.Close();
-        //        }
-        //        return done;
-        //    }
-        //}
-
+        //Hàm nhập giá trị vào database
         public int InsertDataNew(
             string query, Dictionary<string, object> parameter,
             string checkQuery = null, Dictionary<string, object> checkParameters = null
@@ -183,7 +142,7 @@ namespace QuanLyKinhDoanhVangBacDaQuy.DAO
             }
             return done;
         }
-
+        //Hàm trả về số dòng thỏa mãn câu lệnh thực thi
         public int ExecuteScalar(string query, Dictionary<string, object> parameters = null)
         {
             int result = 0;

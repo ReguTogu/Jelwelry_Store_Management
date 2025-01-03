@@ -372,7 +372,7 @@
             Settingbtn.Padding = new Padding(22, 0, 0, 0);
             Settingbtn.Size = new Size(320, 109);
             Settingbtn.TabIndex = 0;
-            Settingbtn.Text = "               Setting";
+            Settingbtn.Text = "               Cài đặt";
             Settingbtn.TextAlign = ContentAlignment.MiddleLeft;
             Settingbtn.UseVisualStyleBackColor = false;
             Settingbtn.Click += Settingbtn_Click;

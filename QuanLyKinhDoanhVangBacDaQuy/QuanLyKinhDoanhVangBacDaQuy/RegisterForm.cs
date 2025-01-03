@@ -21,13 +21,13 @@ namespace QuanLyKinhDoanhVangBacDaQuy
             InitializeComponent();
             loginForm = parentForm;
         }
-
+        //Chuyển qua form Đăng nhập
         private void gotoLogin_Click(object sender, EventArgs e)
         {
             loginForm.Show();
             this.Close();
         }
-
+        //Nhấn nút đăng ký, tạo tài khoản nhân viên mới
         private void btnSignUp_Click(object sender, EventArgs e)
         {
             string Username = regUsername.Text.Trim();
@@ -76,17 +76,17 @@ namespace QuanLyKinhDoanhVangBacDaQuy
                 else { }
             }
         }
-
+        //Nhấn nút thoát chương trình
         private void Exitbutton_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
+        //Nhấn nút thu nhỏ chương trình
         private void Minimize_btn_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
-
+        //Hiện mật khẩu
         private void Register_ShowPass_CheckedChanged(object sender, EventArgs e)
         {
             regPassword.UseSystemPasswordChar = false;

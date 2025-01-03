@@ -14,6 +14,7 @@ namespace QuanLyKinhDoanhVangBacDaQuy
 {
     public partial class fManager : Form
     {
+        //Gọi các form mdi con
         fAdmin fAdmin;
         fAccountProfile fAccountProfile;
         FormSell fSell;
@@ -23,11 +24,14 @@ namespace QuanLyKinhDoanhVangBacDaQuy
         FormInventory fInventory;
         FormDashboard fDashboard;
         private string userName;
+        //Khởi tạo Giao diện chính
         public fManager(string userName)
         {
             InitializeComponent();
             mdiProp();
+            //Lưu tên tài khoản đăng nhập của người dùng
             this.userName = userName;
+            //Hiển thị Form dashboard đầu tiên
             if (fDashboard == null)
             {
                 fDashboard = new FormDashboard();
@@ -37,21 +41,23 @@ namespace QuanLyKinhDoanhVangBacDaQuy
                 fDashboard.Show();
             }
         }
+        //Cài đặt nhỏ giao diện trang mdiParent
         private void mdiProp()
         {
             this.SetBevel(false);
             Controls.OfType<MdiClient>().FirstOrDefault().BackColor = Color.FromArgb(232, 234, 237);
         }
-
+        //Nút thoát chương trình
         private void Exitbutton_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
+        //Nút thu nhỏ chương trình
         private void Minimize_btn_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
+        //Lấy giá trị chức vụ cho trang thông tin tài khoản
         private string LoadEmployeeInfo()
         {
             string query = "EXEC ThongTinCaNhan_TK_Ten @TaiKhoan ";
@@ -60,7 +66,7 @@ namespace QuanLyKinhDoanhVangBacDaQuy
 
             return employeeData.Rows[0]["ChucVu"].ToString();
         }
-
+        //Điều khiển thanh bên sidebar
         bool menuExpand = false;
         private void MenuTransition_Tick(object sender, EventArgs e)
         {
@@ -84,12 +90,11 @@ namespace QuanLyKinhDoanhVangBacDaQuy
             }
 
         }
-
         private void Settingbtn_Click(object sender, EventArgs e)
         {
             MenuTransition.Start();
         }
-
+        //Đóng mở thanh bên
         bool sidebarExpand = false;
         private void sidebarTransition_Tick(object sender, EventArgs e)
         {
@@ -112,12 +117,12 @@ namespace QuanLyKinhDoanhVangBacDaQuy
                 }
             }
         }
-
+        //Nút mở rộng thanh bên
         private void Sidebarbtn_Click(object sender, EventArgs e)
         {
             sidebarTransition.Start();
         }
-
+        //Nút đăng xuất
         private void Logout_btn_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("Bạn có muốn đăng xuất?", "Thông báo"
@@ -126,7 +131,7 @@ namespace QuanLyKinhDoanhVangBacDaQuy
                 this.Close();
             }
         }
-
+        //Nút Thông tin tài khoản
         private void Info_btn_Click(object sender, EventArgs e)
         {
             if (fAccountProfile == null)
@@ -142,11 +147,11 @@ namespace QuanLyKinhDoanhVangBacDaQuy
                 fAccountProfile.Activate();
             }
         }
-
         private void fAccountProfile_FormClosed(object sender, FormClosedEventArgs e)
         {
             fAccountProfile = null;
         }
+        //Nút Quản lý dữ liệu
         private void Admin_btn_Click(object sender, EventArgs e)
         {
             string checkAdmin = LoadEmployeeInfo();
@@ -175,7 +180,7 @@ namespace QuanLyKinhDoanhVangBacDaQuy
         {
             fAdmin = null;
         }
-
+        //Nút Phiếu bán hàng
         private void Sell_btn_Click(object sender, EventArgs e)
         {
             if (fSell == null)
@@ -195,7 +200,7 @@ namespace QuanLyKinhDoanhVangBacDaQuy
         {
             fSell = null;
         }
-
+        //Nút Phiếu mua hàng
         private void Buy_btn_Click(object sender, EventArgs e)
         {
             if (fBuy == null)
@@ -215,7 +220,7 @@ namespace QuanLyKinhDoanhVangBacDaQuy
         {
             fBuy = null;
         }
-
+        //Nút Phiếu dịch vụ
         private void Service_btn_Click(object sender, EventArgs e)
         {
             if (fService == null)
@@ -235,7 +240,7 @@ namespace QuanLyKinhDoanhVangBacDaQuy
         {
             fService = null;
         }
-
+        //Nút Tra cứu dịch vụ
         private void Search_btn_Click(object sender, EventArgs e)
         {
             if (fSearch == null)
@@ -255,7 +260,7 @@ namespace QuanLyKinhDoanhVangBacDaQuy
         {
             fSearch = null;
         }
-
+        //Nút Báo cáo tồn kho
         private void Inven_btn_Click(object sender, EventArgs e)
         {
             if (fInventory == null)
@@ -271,12 +276,11 @@ namespace QuanLyKinhDoanhVangBacDaQuy
                 fInventory.Activate();
             }
         }
-
         private void fInventory_FormClosed(object sender, FormClosedEventArgs e)
         {
             fInventory = null;
         }
-
+        //Nút Doanh thu
         private void Dashboard_btn_Click(object sender, EventArgs e)
         {
             if (fDashboard == null)
