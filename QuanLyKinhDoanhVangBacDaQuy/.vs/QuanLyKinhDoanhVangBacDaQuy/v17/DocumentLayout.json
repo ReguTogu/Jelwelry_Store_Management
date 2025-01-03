@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "E:\\CsharpProject\\Jewelry_test\\Test_Jelwelry\\QuanLyKinhDoanhVangBacDaQuy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|E:\\CsharpProject\\Jewelry_test\\Test_Jelwelry\\QuanLyKinhDoanhVangBacDaQuy\\quanlykinhdoanhvangbacdaquy\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|e:\\csharpproject\\jewelry_test\\test_jelwelry\\quanlykinhdoanhvangbacdaquy\\quanlykinhdoanhvangbacdaquy\\dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|solutionrelative:quanlykinhdoanhvangbacdaquy\\dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|e:\\csharpproject\\jewelry_test\\test_jelwelry\\quanlykinhdoanhvangbacdaquy\\quanlykinhdoanhvangbacdaquy\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|solutionrelative:quanlykinhdoanhvangbacdaquy\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -49,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|e:\\csharpproject\\jewelry_test\\test_jelwelry\\quanlykinhdoanhvangbacdaquy\\quanlykinhdoanhvangbacdaquy\\dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|solutionrelative:quanlykinhdoanhvangbacdaquy\\dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|e:\\csharpproject\\jewelry_test\\test_jelwelry\\quanlykinhdoanhvangbacdaquy\\quanlykinhdoanhvangbacdaquy\\dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|solutionrelative:quanlykinhdoanhvangbacdaquy\\dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|e:\\csharpproject\\jewelry_test\\test_jelwelry\\quanlykinhdoanhvangbacdaquy\\quanlykinhdoanhvangbacdaquy\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -109,7 +109,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 22,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Document",
@@ -151,15 +151,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "fManager.cs [Design]",
               "DocumentMoniker": "E:\\CsharpProject\\Jewelry_test\\Test_Jelwelry\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\fManager.cs",
               "RelativeDocumentMoniker": "QuanLyKinhDoanhVangBacDaQuy\\fManager.cs",
               "ToolTip": "E:\\CsharpProject\\Jewelry_test\\Test_Jelwelry\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\fManager.cs [Design]",
               "RelativeToolTip": "QuanLyKinhDoanhVangBacDaQuy\\fManager.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T02:08:43.53Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-27T02:08:43.53Z"
             },
             {
               "$type": "Document",
@@ -186,15 +185,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FormService.cs [Design]",
               "DocumentMoniker": "E:\\CsharpProject\\Jewelry_test\\Test_Jelwelry\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\FormService.cs",
               "RelativeDocumentMoniker": "QuanLyKinhDoanhVangBacDaQuy\\FormService.cs",
               "ToolTip": "E:\\CsharpProject\\Jewelry_test\\Test_Jelwelry\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\FormService.cs [Design]",
               "RelativeToolTip": "QuanLyKinhDoanhVangBacDaQuy\\FormService.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T17:02:53.328Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-26T17:02:53.328Z"
             },
             {
               "$type": "Document",
@@ -223,51 +221,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "FormBuy.cs [Design]",
               "DocumentMoniker": "E:\\CsharpProject\\Jewelry_test\\Test_Jelwelry\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\FormBuy.cs",
               "RelativeDocumentMoniker": "QuanLyKinhDoanhVangBacDaQuy\\FormBuy.cs",
               "ToolTip": "E:\\CsharpProject\\Jewelry_test\\Test_Jelwelry\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\FormBuy.cs [Design]",
               "RelativeToolTip": "QuanLyKinhDoanhVangBacDaQuy\\FormBuy.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T16:20:54.918Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-26T16:20:54.918Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "FormInventory.cs [Design]",
               "DocumentMoniker": "E:\\CsharpProject\\Jewelry_test\\Test_Jelwelry\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\FormInventory.cs",
               "RelativeDocumentMoniker": "QuanLyKinhDoanhVangBacDaQuy\\FormInventory.cs",
               "ToolTip": "E:\\CsharpProject\\Jewelry_test\\Test_Jelwelry\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\FormInventory.cs [Design]",
               "RelativeToolTip": "QuanLyKinhDoanhVangBacDaQuy\\FormInventory.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T16:20:25.696Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-26T16:20:25.696Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FormSell.cs [Design]",
               "DocumentMoniker": "E:\\CsharpProject\\Jewelry_test\\Test_Jelwelry\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\FormSell.cs",
               "RelativeDocumentMoniker": "QuanLyKinhDoanhVangBacDaQuy\\FormSell.cs",
               "ToolTip": "E:\\CsharpProject\\Jewelry_test\\Test_Jelwelry\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\FormSell.cs [Design]",
               "RelativeToolTip": "QuanLyKinhDoanhVangBacDaQuy\\FormSell.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T16:16:51.28Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-26T16:16:51.28Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FormListServiceReceipt.cs [Design]",
               "DocumentMoniker": "E:\\CsharpProject\\Jewelry_test\\Test_Jelwelry\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\FormListServiceReceipt.cs",
               "RelativeDocumentMoniker": "QuanLyKinhDoanhVangBacDaQuy\\FormListServiceReceipt.cs",
               "ToolTip": "E:\\CsharpProject\\Jewelry_test\\Test_Jelwelry\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\FormListServiceReceipt.cs [Design]",
               "RelativeToolTip": "QuanLyKinhDoanhVangBacDaQuy\\FormListServiceReceipt.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T16:16:26.96Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-26T16:16:26.96Z"
             },
             {
               "$type": "Document",
@@ -283,15 +277,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "FormDashboard.cs [Design]",
               "DocumentMoniker": "E:\\CsharpProject\\Jewelry_test\\Test_Jelwelry\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\FormDashboard.cs",
               "RelativeDocumentMoniker": "QuanLyKinhDoanhVangBacDaQuy\\FormDashboard.cs",
               "ToolTip": "E:\\CsharpProject\\Jewelry_test\\Test_Jelwelry\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\FormDashboard.cs [Design]",
               "RelativeToolTip": "QuanLyKinhDoanhVangBacDaQuy\\FormDashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T16:14:38.43Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-26T16:14:38.43Z"
             },
             {
               "$type": "Document",
@@ -321,31 +314,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "fAccountProfile.cs [Design]",
               "DocumentMoniker": "E:\\CsharpProject\\Jewelry_test\\Test_Jelwelry\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\fAccountProfile.cs",
               "RelativeDocumentMoniker": "QuanLyKinhDoanhVangBacDaQuy\\fAccountProfile.cs",
               "ToolTip": "E:\\CsharpProject\\Jewelry_test\\Test_Jelwelry\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\fAccountProfile.cs [Design]",
               "RelativeToolTip": "QuanLyKinhDoanhVangBacDaQuy\\fAccountProfile.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T11:02:22.044Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-26T11:02:22.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "DataProvider.cs",
               "DocumentMoniker": "E:\\CsharpProject\\Jewelry_test\\Test_Jelwelry\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\DAO\\DataProvider.cs",
               "RelativeDocumentMoniker": "QuanLyKinhDoanhVangBacDaQuy\\DAO\\DataProvider.cs",
               "ToolTip": "E:\\CsharpProject\\Jewelry_test\\Test_Jelwelry\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\DAO\\DataProvider.cs",
               "RelativeToolTip": "QuanLyKinhDoanhVangBacDaQuy\\DAO\\DataProvider.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAuwJEAAABcAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T10:51:32.177Z"
+              "WhenOpened": "2024-12-20T10:51:32.177Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "AccountDAO.cs",
               "DocumentMoniker": "E:\\CsharpProject\\Jewelry_test\\Test_Jelwelry\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\DAO\\AccountDAO.cs",
               "RelativeDocumentMoniker": "QuanLyKinhDoanhVangBacDaQuy\\DAO\\AccountDAO.cs",
@@ -353,8 +346,7 @@
               "RelativeToolTip": "QuanLyKinhDoanhVangBacDaQuy\\DAO\\AccountDAO.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T10:51:28.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-20T10:51:28.076Z"
             },
             {
               "$type": "Document",
@@ -384,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LoginForm.cs [Design]",
               "DocumentMoniker": "E:\\CsharpProject\\Jewelry_test\\Test_Jelwelry\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\LoginForm.cs",
               "RelativeDocumentMoniker": "QuanLyKinhDoanhVangBacDaQuy\\LoginForm.cs",
@@ -396,27 +388,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "fAdmin.cs [Design]",
               "DocumentMoniker": "E:\\CsharpProject\\Jewelry_test\\Test_Jelwelry\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\fAdmin.cs",
               "RelativeDocumentMoniker": "QuanLyKinhDoanhVangBacDaQuy\\fAdmin.cs",
               "ToolTip": "E:\\CsharpProject\\Jewelry_test\\Test_Jelwelry\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\fAdmin.cs [Design]",
               "RelativeToolTip": "QuanLyKinhDoanhVangBacDaQuy\\fAdmin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T13:57:12.932Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-15T13:57:12.932Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "RegisterForm.cs [Design]",
               "DocumentMoniker": "E:\\CsharpProject\\Jewelry_test\\Test_Jelwelry\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\RegisterForm.cs",
               "RelativeDocumentMoniker": "QuanLyKinhDoanhVangBacDaQuy\\RegisterForm.cs",
               "ToolTip": "E:\\CsharpProject\\Jewelry_test\\Test_Jelwelry\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\RegisterForm.cs [Design]",
               "RelativeToolTip": "QuanLyKinhDoanhVangBacDaQuy\\RegisterForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T18:54:45.601Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-12T18:54:45.601Z"
             }
           ]
         }

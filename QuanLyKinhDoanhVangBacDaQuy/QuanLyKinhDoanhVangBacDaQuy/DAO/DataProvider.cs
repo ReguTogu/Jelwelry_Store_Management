@@ -14,7 +14,7 @@ namespace QuanLyKinhDoanhVangBacDaQuy.DAO
         private static DataProvider instance = null; //Singleton
         private static object locker = new object(); //Giới hạn access cho người đang sử dụng
         //Tạo kết nối từ client tới server
-        private string connectionSTR = "Data Source=LAPTOP-JU79JM5A;Initial Catalog=QuanLyKinhDoanhVangBacDaQuy;Integrated Security=True;Encrypt=True;Trust Server Certificate=True";
+        private string connectionSTR = "Data Source=.;Initial Catalog=QuanLyKinhDoanhVangBacDaQuy;Integrated Security=True;Encrypt=True;Trust Server Certificate=True";
 
         public static DataProvider Instance
         {
